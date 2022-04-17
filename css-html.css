@@ -100,6 +100,16 @@ li a:hover {
 }
     
 @media only screen and (max-width: 950px){
+    .conversor .titulo{
+        display: none;
+    }
+    .conversor .titulo-mobile{
+        position: absolute;
+        font-size: 30px;
+        font-weight:bold;
+        top: -1.2em;
+        color: white;
+    }
     .nav-bar{
         display:none;
     }
@@ -243,17 +253,6 @@ li a:hover {
 }
 
 @media only screen and (max-width: 620px){
-
-    .conversor .titulo{
-        display: none;
-    }
-    .conversor .titulo-mobile{
-        position: absolute;
-        font-size: 30px;
-        font-weight:bold;
-        top: -1.2em;
-        color: white;
-    }
     .conversor{
         position: relative;
         width: 22em;
@@ -281,23 +280,7 @@ li a:hover {
 }
 
 
-@media only screen and (min-width: 401px){
-    .conversor .titulo-mobile{
-        display:none;
-    }
-}
-
 @media only screen and (max-width: 400px){
-    .conversor .titulo{
-        display: none;
-    }
-    .conversor .titulo-mobile{
-        position: absolute;
-        font-size: 30px;
-        font-weight:bold;
-        top: -1.2em;
-        color: white;
-    }
     .conversor{
         width: 15em;
         height: 15em;
