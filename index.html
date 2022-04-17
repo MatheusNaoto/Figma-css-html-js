@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css-html.css">
+    <title>Student Helper</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <img class="logo" src="S.png">
+        <ul>
+            <li><a href="#app4">Ainda não sei App4</a></li>
+            <li><a href="#app2">Ainda não sei App3</a></li>
+            <li><a href="#app3">Ainda não sei App2</a></li>
+            <li><a class="active" href="index.html">Conversor binário - decimal</a></li>
+        </ul>
+    </div>
+    <nav role="navigation">
+        <img class="logo-mobile" src="S.png">
+        <div id="menuToggle">
+            <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+
+            <ul id="menu">
+                <li><a class="active" href="index.html">Conversor binário - decimal</a></li>
+                <li><a href="#app4">Ainda não sei App2</a></li>
+                <li><a href="#app2">Ainda não sei App3</a></li>
+                <li><a href="#app3">Ainda não sei App4</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <div class="conversor" id="bin2dec">
+        <div class="titulo">Conversor Binário /  Decimal</div>
+        <div class="titulo-mobile">Conversor</div>
+        <div class="bin" id="bin">N° em Binário: <input id="bin_inp" type="number" onkeyup="tochange()">
+        </div>
+        <div class="dec" id="dec">N° em Decimal: <input id="dec_inp" type="number" onkeyup="tochange1()">
+        </div>
+    </div>
+    <script src="script-html.js"></script>
+</body>
+</html>
