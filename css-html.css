@@ -245,7 +245,14 @@ li a:hover {
 @media only screen and (max-width: 620px){
 
     .conversor .titulo{
-        left: -7px;
+        display: none;
+    }
+    .conversor .titulo-mobile{
+        position: absolute;
+        font-size: 30px;
+        font-weight:bold;
+        top: -1.2em;
+        color: white;
     }
     .conversor{
         position: relative;
