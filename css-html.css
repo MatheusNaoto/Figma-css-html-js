@@ -82,21 +82,28 @@ li a:hover {
 
 .conversor .bin{
     color: white;
-    position: absolute;
+    position: relative;
     font-size: 20px;
-    top: 5em;
+    left: 8em;
+    top: -3em;
+    
 }
 .conversor .dec{
     color: white;
-    position: absolute;
+    position: relative;
     font-size: 20px;
-    bottom: 5em;
+    left: -3.9em;
+    bottom: -2em;
 }
 
 @media only screen and (min-width: 951px){
     nav{
         display:none;
     }
+    .conversor .titulo-mobile{
+        display: none;
+    }
+
 }
     
 @media only screen and (max-width: 950px){ 
@@ -265,17 +272,19 @@ li a:hover {
         border-radius: 25px;
     }
     .conversor .bin{
-        position: absolute;
+        color: white;
+        position: relative;
         font-size: 20px;
-        top: 3em;
-        left: 1.1em;
+        left: 4.5em;
+        top: -3em;
     }
     .conversor .dec{
-        position: absolute;
+        color: white;
+        position: relative;
         font-size: 20px;
-        bottom: 3em;
-        left: 0.9em;
-    }
+        left: -4.4em;
+        bottom: -2em;
+    
 }
 
 
@@ -285,18 +294,22 @@ li a:hover {
         height: 15em;
     }
     .conversor .bin{
-        position: absolute;
+        color: white;
+        position: relative;
         font-size: 20px;
-        top: 2em;
-        left: 1.5em;
+        left: 4.5em;
+        top: -3em;
+        
     }
     .conversor .dec{
-        position: absolute;
+        color: white;
+        position: relative;
         font-size: 20px;
-        bottom: 2em;
-        left: 1.5em;
-    }
+        left: -4.4em;
+        bottom: -2em;
+    }    
     #menu{
         width:200px ;
+    }
     }
 }
