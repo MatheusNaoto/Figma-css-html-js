@@ -99,7 +99,7 @@ li a:hover {
     }
 }
     
-@media only screen and (max-width: 950px){
+@media only screen and (max-width: 950px){ 
     .conversor .titulo{
         display: none;
     }
@@ -109,8 +109,7 @@ li a:hover {
         font-weight:bold;
         top: -1.2em;
         color: white;
-    }
-    .nav-bar{
+    }.nav-bar{
         display:none;
     }
     .logo-mobile{
@@ -269,7 +268,7 @@ li a:hover {
         position: absolute;
         font-size: 20px;
         top: 3em;
-        left: 1.3em;
+        left: 1.1em;
     }
     .conversor .dec{
         position: absolute;
